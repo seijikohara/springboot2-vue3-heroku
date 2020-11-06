@@ -2,17 +2,9 @@
   "name": "springboot2-vue3-heroku",
   "description": "Demo springboot2-vue3-heroku",
   "repository": "https://github.com/seijikohara/springboot2-vue3-heroku",
-  "scripts": {},
   "env": {
     "GRADLE_TASK": "herokuStage"
   },
-  "formation": [
-    {
-      "web": {
-        "quantity": 1
-      }
-    }
-  ],
   "addons": [
     {
       "plan": "papertrail"
